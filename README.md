@@ -4,15 +4,15 @@ DISCLAIMER: This repository was created to host the solution to the Wellfound mi
 
 ## The steps followed to solve this assessment are as follows:
 
-1. Create a virtual environment called env using the virtualenv package. (code: virtualenv env)
+1. Create a virtual environment called env using the virtualenv package. ```virtualenv env```
 
-2. Activate the environment on my windows device. (code: env\Scripts\activate)
+2. Activate the environment on my windows device. ```env\Scripts\activate```
 
-3. Install dependencies from the requirements file. (code: pip install -r requirements.txt)
+3. Install dependencies from the requirements file. ```pip install -r requirements.txt```
 
 4. Open the .flaskenv file to find that microblog.py is the entry point of the app.
 
-5. Run flask to get an overview of the app. (code: flask run)
+5. Run flask to get an overview of the app. ```flask run```
 
 6. Open the app in a browser and browse through it.
 
@@ -24,13 +24,13 @@ DISCLAIMER: This repository was created to host the solution to the Wellfound mi
 
 10. Add env directory to .gitignore
 
-11. Change remote origin url to point to my repo. (code: git remote set-url origin https://github.com/okayed1998/wellfound_blog.git)
+11. Change remote origin url to point to my repo. ```git remote set-url origin https://github.com/okayed1998/wellfound_blog.git```
 
-12. Add modification to git. (code: git add .)
+12. Add modification to git. ```git add .```
 
-13. Commit modifications. (code: git commit -m "Solve Assesment. State of the art commit message 😉").
+13. Commit modifications. ```git commit -m "Solve Assesment. State of the art commit message 😉"```
 
-14. Push to origin. (code: git push -u origin main)
+14. Push to origin. ```git push -u origin main```
 
 ## Changes made to the "index.html" file are:
 
@@ -41,7 +41,7 @@ DISCLAIMER: This repository was created to host the solution to the Wellfound mi
 3. Modify the inner html of the span to display the body of each post using the proper jinja syntax.
 
 ## Sample of the code is shown below:
-
+```
 {% for post in posts %}
     <tr>
         <td>
@@ -50,7 +50,7 @@ DISCLAIMER: This repository was created to host the solution to the Wellfound mi
         </td>
     </tr>
 {% endfor %}
-
+```
 ## A screenshot of the homepage is shown below.
 
 ![Alt text](image.png)
